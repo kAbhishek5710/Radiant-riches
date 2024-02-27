@@ -1,0 +1,20 @@
+.footer_section {
+    margin-top: 50px;
+    height: 452px;
+    background-color: #212731;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    .categories, .contact, .state {
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: #B6BDC4;
+        line-height: 30px;
+    }
+    .state {
+        display: flex;
+        flex-direction: row;
+    }
+}
